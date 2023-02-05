@@ -10,7 +10,7 @@ export default function Pricing() {
                     <Text fontWeight={'800'} fontSize={'24px'} color={'#171923'}>Premium PRO</Text>
                     <Heading as={'h3'} fontWeight={'800'} fontSize={'60px'} color={'#171923'}>$329</Heading>
                     <Text fontWeight={'500'} fontSize={'18px'} mt={'8px'}>billed just once</Text>
-                    <Button color={'#F7FAFC'} bg={'#805AD5'} size={'lg'} w={'282px'} mt={'24px'}>Get Started</Button>
+                    <Button color={'#F7FAFC'} bg={'#805AD5'} size={'lg'} w={{base:'232px',lg:'282px'}} mt={'24px'}>Get Started</Button>
                 </Box>
                 <Box pt={'40px'} pl={'24px'}>
                     <Text mb={'24px'}>Access these features when you get this pricing package for your business.</Text>
